@@ -17,11 +17,23 @@ echo \
 
 sudo apt-get update
 
-sudo apt install git
+#sudo apt install git
 
 sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y 
 sudo apt  install docker-compose -y
 sudo apt-get update
+
+
+# Installing neovim
+sudo apt-get install neovim
+
+# Installing trash cli
+sudo apt install trash-cli
+
+# Gnome tweaks
+
+sudo apt install gnome-tweaks
+
 
